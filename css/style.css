@@ -85,7 +85,7 @@ a {
 .donation-today h3,
 .feature h3,
 .update h3 {
-    font-size: 25px;
+    font-size: 35px;
     color: black;
     font-weight: 600px;
     margin: 20px 0;
@@ -257,7 +257,7 @@ input[type=text] {
 .donation-experience h3 {
     font-size: 42px;
     color: black;
-    font-weight: 600px;
+    font-weight: 700px;
     margin: 20px 0;
 
 }
