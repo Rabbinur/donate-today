@@ -83,8 +83,9 @@ a {
 }
 
 .donation-today h3,
-.feature h3 {
-    font-size: 30px;
+.feature h3,
+.update h3 {
+    font-size: 25px;
     color: black;
     font-weight: 600px;
     margin: 20px 0;
@@ -92,9 +93,12 @@ a {
 }
 
 .donation-today p,
-.feature p {
+.feature p,
+.donation-experience p,
+.update p {
     margin-bottom: 10px;
     color: rgb(119, 117, 117);
+    line-height: 1.6;
 }
 
 .dontaion-today p {
@@ -218,3 +222,110 @@ input[type=text] {
 }
 
 /* feature css end */
+
+/* donation-experience css start */
+.donation-experience {
+    width: 100%;
+    padding-top: 80px;
+}
+
+.donation-experience-content {
+    display: flex;
+
+}
+
+.donation-experience .left {
+    flex-basis: 50%;
+    margin: 0 20px;
+}
+
+.donation-experience .left img {
+    width: 100%;
+    height: auto;
+}
+
+.donation-experience .right {
+    padding-top: 50px;
+}
+
+.donation-experience .right {
+    flex-basis: 50%;
+    margin: 0 20px;
+    padding: 20px;
+}
+
+.donation-experience h3 {
+    font-size: 42px;
+    color: black;
+    font-weight: 600px;
+    margin: 20px 0;
+
+}
+
+/* donation-experience css end */
+/* update css start */
+.update {
+    width: 100%;
+    padding: 80px;
+    text-align: center;
+}
+
+.update-text {
+    padding-bottom: 30px;
+}
+
+.form1 {
+    margin-top: 40px;
+    background-color: aquamarine;
+    padding: 60px;
+}
+
+
+.email {
+
+    padding: 15px 50px;
+    background-color: rgb(230, 219, 219);
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    left: -100px;
+
+}
+
+.btn1 {
+    right: 540px;
+    padding: 13px 20px;
+    background-color: tomato;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0.3s;
+    border: none;
+    position: absolute;
+}
+
+.input:focus {
+    outline: none !important;
+}
+
+input {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    background-color: #eee;
+}
+
+.no-outline:focus {
+    outline: none;
+}
+
+.btn1:hover {
+    transition: 0.3s;
+    background-color: rgb(122, 19, 19);
+}
+
+/* update css end */
