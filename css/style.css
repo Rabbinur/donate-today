@@ -329,3 +329,23 @@ input {
 }
 
 /* update css end */
+/* footer css start */
+footer {
+    width: 100%;
+    background: black;
+    text-align: center;
+    padding: 50px;
+}
+
+footer h1 {
+    color: rgb(153, 55, 55);
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+footer h5 {
+    color: white;
+    font-weight: 300;
+}
+
+/* footer css end */
